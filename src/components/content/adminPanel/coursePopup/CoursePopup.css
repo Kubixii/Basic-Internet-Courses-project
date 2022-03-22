@@ -1,0 +1,16 @@
+.course-popup{
+    display: flex;
+    flex-direction: column;
+}
+
+.course-popup-form{
+    display: flex;
+    flex-direction: column;
+}
+.course-popup-form-row{
+    display: flex;
+}
+.course-popup-input{
+    display: flex;
+    flex-grow: 1;
+}

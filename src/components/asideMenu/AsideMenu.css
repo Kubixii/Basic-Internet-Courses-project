@@ -1,0 +1,31 @@
+.aside-menu-wrapper{
+    top: 80px;
+    position:sticky;
+}
+
+.aside-menu{
+    padding:15px;
+    width:200px;
+    background-color: #ddd;
+    position: relative;
+}
+.title{
+    margin-top:20px;
+}
+
+.link{
+    list-style-type: none;
+    margin-top:10px;
+    padding:3px 5px;
+    color:#000;
+    text-align: center;
+    /* background-color: lightsalmon; */
+    cursor: pointer;
+}
+.link > *{
+    color: black;
+    text-decoration: none;
+}
+.link >*:hover{
+    color: #f00;
+}

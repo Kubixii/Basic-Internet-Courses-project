@@ -1,0 +1,26 @@
+header{
+    position:fixed;
+    background-color:tan;
+    width:100%;
+    top:0;
+    border-bottom:solid black 1px;
+    z-index:3;
+}
+header h1{
+    float:left;
+    margin-left:1vw;
+}
+header button{
+    float:right;
+    padding: 1vw;
+    margin-right:1vw;
+    margin-top:0.7vw;
+    border:solid beige 2px;
+    border-radius: 25px;
+    background-color: beige;
+    cursor: pointer;
+}
+header button:active{
+    border:solid black 2px;
+    background-color: bisque;
+}

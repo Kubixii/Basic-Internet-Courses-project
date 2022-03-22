@@ -1,0 +1,13 @@
+.modal{
+    position:fixed;
+    left:50vw;
+    top:50vh;
+    transform: translateX(-50%);
+    transform: translateY(-50%);
+    z-index: 100;
+    padding: 15px;
+}
+.modal::backdrop{
+    backdrop-filter: blur(2px);
+
+}

@@ -1,0 +1,16 @@
+.login-form{
+    display: flex;
+    flex-direction: column;
+}
+
+.validate-message{
+    color: #f00;
+}
+.row{
+    margin-top:10px;
+    display:flex ;
+    justify-content: space-around;
+}
+.message{
+    color:red;
+}
